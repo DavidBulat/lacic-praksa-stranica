@@ -17,7 +17,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     color: white;
-    margin-bottom: 70px; /* Uklonjen veliki razmak ispod navigacije */
+    margin-bottom: 70px;
 }
 
 .navtekst {
@@ -40,31 +40,31 @@ main{
     color: black;
     font-size: x-large;
     font-weight: bold;
-    margin: 10px 50px 10px; /* Smanjen razmak iznad naslova */
+    margin: 10px 50px 10px; 
 }
 
 #param {
     font-size: small;
-    margin: 10px 50px 20px; /* Smanjen razmak ispod paragrafa */
+    margin: 10px 50px 20px; 
 }
 
 #subvencije-tekst {
     color: black;
     font-size: x-large;
-    margin: 10px 50px 10px; /* Smanjen razmak iznad subvencija */
+    margin: 10px 50px 10px; 
 }
 
 #lista {
-    margin: 20px 50px 50px; /* Smanjen razmak ispod liste */
-    padding-left: 0; /* Ukloni unutarnji razmak */
+    margin: 20px 50px 50px; 
+    padding-left: 0;
 }
 
 #lista li {
-    margin: 10px 0; /* Razmak između stavki liste */
-    padding: 10px; /* Unutarnji razmak unutar stavki liste */
-    background: #fff; /* Bijela pozadina za stavke liste */
-    border-radius: 5px; /* Zaobljeni rubovi */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Blaga sjena */
+    margin: 10px 0; 
+    padding: 10px;
+    background: #fff; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 #footer {
@@ -84,7 +84,7 @@ main{
 
 .footer-headings {
     display: flex;
-    justify-content: space-around; /* Raspoređuje sekcije po širini */
+    justify-content: space-around;
     width: 100%;
     max-width: 1200px;
     margin-bottom: 20px;
@@ -92,11 +92,11 @@ main{
 
 .footer-section {
     display: flex;
-    flex-direction: column; /* Rasporedi elemente unutar sekcije u kolonu */
+    flex-direction: column; 
     align-items: center;
     text-align: center;
-    width: 30%; /* Svaka sekcija zauzima 30% širine */
-    margin: 0 10px; /* Mali razmak između sekcija */
+    width: 30%; 
+    margin: 0 10px; 
 }
 
 .footer-naslov {
@@ -108,12 +108,10 @@ main{
 .footer-tekst {
     color: lightslategray;
     font-size: small;
-    margin-top: 5px; /* Razmak između naslova i teksta */
-}
+    margin-top: 5px;}
 
 .socijalne-mreze svg {
-    fill: #808080; /* Siva boja za ikonu */
-    width: 30px;
+    fill: #808080; 
     height: 30px;
     margin-top: 10px;
 }
@@ -131,7 +129,7 @@ main{
 .newsletter-form input[type="email"] {
     padding: 10px;
     width: 80%;
-    max-width: 300px; /* Ograničenje širine polja */
+    max-width: 300px; 
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;

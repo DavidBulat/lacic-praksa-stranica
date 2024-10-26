@@ -58,7 +58,7 @@ font-optical-sizing: auto;
 
 .footer-headings {
     display: flex;
-    justify-content: space-around; /* Raspoređuje sekcije po širini */
+    justify-content: space-around; 
     width: 100%;
     max-width: 1200px;
     margin-bottom: 20px;
@@ -66,11 +66,11 @@ font-optical-sizing: auto;
 
 .footer-section {
     display: flex;
-    flex-direction: column; /* Rasporedi elemente unutar sekcije u kolonu */
+    flex-direction: column; 
     align-items: center;
     text-align: center;
-    width: 30%; /* Svaka sekcija zauzima 30% širine */
-    margin: 0 10px; /* Mali razmak između sekcija */
+    width: 30%; 
+    margin: 0 10px; 
 }
 
 .footer-naslov {
@@ -82,11 +82,11 @@ font-optical-sizing: auto;
 .footer-tekst {
     color: lightslategray;
     font-size: small;
-    margin-top: 5px; /* Razmak između naslova i teksta */
+    margin-top: 5px; 
 }
 
 .socijalne-mreze svg {
-    fill: #808080; /* Siva boja za ikonu */
+    fill: #808080; 
     width: 30px;
     height: 30px;
     margin-top: 10px;
@@ -105,7 +105,7 @@ font-optical-sizing: auto;
 .newsletter-form input[type="email"] {
     padding: 10px;
     width: 80%;
-    max-width: 300px; /* Ograničenje širine polja */
+    max-width: 300px; 
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;

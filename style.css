@@ -172,11 +172,11 @@ nav{
 .footer-tekst {
     color: lightslategray;
     font-size: small;
-    margin-top: 5px; /* Razmak između naslova i teksta */
+    margin-top: 5px; 
 }
 
 .socijalne-mreze svg {
-    fill: #808080; /* Siva boja za ikonu */
+    fill: #808080; 
     width: 30px;
     height: 30px;
     margin-top: 10px;
