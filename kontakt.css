@@ -1,0 +1,54 @@
+body{
+    
+background-repeat: no-repeat;
+min-height: 100%;
+  min-width: 1024px;
+  width: 100vw;
+  height: auto;
+box-sizing: border-box;
+font-family: "Saira", sans-serif;
+font-optical-sizing: auto;
+}nav{
+    background-color: black;
+    width: 100vw;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}.navtekst{
+    color: white;
+    margin: auto;
+    
+}.navtekst:hover{
+    color: lightblue;
+}
+#k{
+    height: 1150px;
+    display: flex;
+    justify-content: center;
+}.svg{
+    margin: auto;
+}#map{
+    width: 800px;
+    position: relative;
+    margin-top: 700px;
+   margin-left: 50px;
+   margin: auto;
+   border-radius: 10px;
+   border: px,solid;
+   border-color: black;
+    
+}#kontakt-podatci{
+    width: 800px;
+    background-color: lightblue;
+    height: 100px;
+    position: absolute;
+    margin-top: 200px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 5px;
+    
+}

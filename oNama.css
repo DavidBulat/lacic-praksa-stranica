@@ -1,0 +1,127 @@
+body{
+  background-color: white;
+background-repeat: no-repeat;
+min-height: 100%;
+  min-width: 1024px;
+  width: 100vw;
+  height: auto;
+box-sizing: border-box;
+font-family: "Saira", sans-serif;
+font-optical-sizing: auto;
+}nav{
+    background-color: black;
+    width: 100vw;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+}.navtekst{
+    color: white;
+    margin: auto;
+    
+}.navtekst:hover{
+    color: lightblue;
+}
+#k{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    
+
+}.svg{
+    margin: auto;
+}.tekst{
+    color: black;
+    margin-top: 200px;
+    margin-left: 180px;
+    
+}#certifikat{
+    margin-left: 50px;
+}.box{
+    background-color: lightgray;
+    height: 150px;
+    width: 400px;
+}#footer {
+    width: 100vw;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-headings {
+    display: flex;
+    justify-content: space-around; /* Raspoređuje sekcije po širini */
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column; /* Rasporedi elemente unutar sekcije u kolonu */
+    align-items: center;
+    text-align: center;
+    width: 30%; /* Svaka sekcija zauzima 30% širine */
+    margin: 0 10px; /* Mali razmak između sekcija */
+}
+
+.footer-naslov {
+    color: white;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.footer-tekst {
+    color: lightslategray;
+    font-size: small;
+    margin-top: 5px; /* Razmak između naslova i teksta */
+}
+
+.socijalne-mreze svg {
+    fill: #808080; /* Siva boja za ikonu */
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.newsletter-section {
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px; /* Ograničenje širine polja */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.newsletter-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.newsletter-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
